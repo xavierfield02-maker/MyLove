@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Do you love me?</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="question">Do you love me?</h1>
+    <div class="heart">❤</div>
+
+    <div class="buttons">
+      <button id="yesBtn" class="btn yes" aria-label="Yes, I love you">Yes</button>
+      <button id="noBtn" class="btn no" aria-label="No, I don't">No</button>
+    </div>
+
+    <div id="message" class="message hidden" role="dialog" aria-modal="true" aria-labelledby="msgTitle">
+      <h2 id="msgTitle">💖</h2>
+      <p id="msgText">I love you too! 💕</p>
+      <button id="closeBtn" class="btn close">Close</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
